@@ -1,0 +1,716 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* navbar section starts here */
+
+
+
+.navbar {
+    width: 1920px;
+    height: 130px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+
+.menu-title>span {
+    color: #FF42A5;
+}
+
+.nav-logo-and-title {
+    margin-left: 240px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav-menus>ul {
+    display: flex;
+    list-style: none;
+    gap: 32px;
+    color: #3C354F;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: normal;
+    margin-right: 240px;
+    align-items: center;
+}
+
+.menu3 {
+    width: 262px;
+    height: 56px;
+    display: flex;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+
+}
+
+.menu3-logo {
+    display: flex;
+    align-items: center;
+    margin: 17px;
+}
+
+.menu-title {
+    text-align: center;
+    font-size: 45px;
+    font-weight: 700;
+    color: #0B0223;
+    line-height: normal;
+}
+
+
+.youtube {
+    width: 33.916px;
+    height: 24px;
+    margin-left: 24px;
+}
+
+.tiktok {
+    width: 24px;
+    height: 24px;
+    margin-left: 16px;
+}
+
+/* navbar section ends here */
+
+/* banner section starts here */
+.banner {
+    width: 1920px;
+    height: 700px;
+    background-color: #FFF;
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner-container {
+    width: 901px;
+    height: 700px;
+    background-image: url(images/Group\ 14.png);
+    background-repeat: no-repeat;
+    padding: 148px 0px 0px 244px;
+}
+
+.banner-title {
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.banner-focus-title {
+    font-size: 95px;
+    font-weight: 800;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.banner-container>p {
+    color: #534C64;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: normal;
+    gap: 7px;
+    margin-top: 17px;
+}
+
+.banner-contant-icon {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    gap: 12px;
+    margin-top: 17px;
+}
+
+#click {
+    text-transform: lowercase;
+}
+
+.btn {
+    display: flex;
+    gap: 24px;
+    margin-top: 41px;
+    text-transform: uppercase;
+}
+
+.btn1 {
+    padding: 21px 40px;
+    border-radius: 48px;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    border: none;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+
+.btn2 {
+    display: inline-flex;
+    padding: 21px 40px;
+    gap: 10px;
+    border-radius: 48px;
+    background-color: #4EC5F7;
+    border: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.banner-img2 {
+    margin-right: 240px;
+    padding-bottom: 0px;
+}
+
+/* banner section ends here */
+
+/* we are gamer section starts here */
+
+.we-are-gamer-section>img {
+    width: 868px;
+    height: 489px;
+    padding: 55px 0px 0px 240px;
+}
+
+.we-are-gamer-section {
+    display: flex;
+    justify-content: space-between;
+    text-align: right;
+    width: 1920px;
+    height: 600px;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+}
+
+.gamer-section-title {
+    text-align: right;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: normal;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 24px;
+}
+
+.gamer-container {
+    padding: 95px 240px 0px 0px;
+}
+
+.gamer-section-contant {
+    color: #534C64;
+    text-align: right;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 32px;
+}
+
+.btn3 {
+    display: inline-flex;
+    padding: 21px 40px;
+    gap: 10px;
+    border-radius: 48px;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    border: none;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+}
+
+.gamer-section-bottom-contant>span {
+    color: #534C64;
+    text-align: right;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 45px;
+}
+
+.gamer-section-bottom-contant {
+    color: #534C64;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 45px;
+}
+
+/* we are gamer section starts here */
+
+/* funny videos section starts here */
+
+.funny-videos-container {
+    width: 1920px;
+    margin-top: 120px;
+    text-align: center;
+}
+
+.funny-videos-title {
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.funny-videos-title>span {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.funny-videos-contant {
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 16px;
+}
+
+.all-box {
+    display: grid;
+    grid-template-columns: repeat(4, 0fr);
+    gap: 24px;
+    color: #534C64;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+    margin: 48px 240px 0px 240px;
+}
+
+.box-1 {
+    width: 342px;
+    height: 400px;
+    flex-shrink: 0;
+    border-radius: 16px;
+}
+
+.box-2 {
+    width: 342px;
+    height: 400px;
+    flex-shrink: 0;
+    border-radius: 16px;
+}
+
+.box-3 {
+    width: 342px;
+    height: 400px;
+    flex-shrink: 0;
+    border-radius: 16px;
+}
+
+.box-4 {
+    width: 342px;
+    height: 400px;
+    flex-shrink: 0;
+    border-radius: 16px;
+}
+
+/* funny videos section ends here */
+
+/* instantly section starts here */
+
+.play-instantly-container {
+    width: 1920px;
+    margin-top: 120px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.play-instantly-title>span {
+    background-color: #F948B2;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.play-instantly-title {
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    align-items: center;
+    text-align: right;
+    margin: 216px 0px 0px 439px;
+}
+
+
+.play-instantly-contant {
+    color: #534C64;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: right;
+    margin-top: 24px;
+
+}
+
+.play-instantly-img-1 {
+    width: 634.833px;
+    height: 650px;
+    margin-right: 240px;
+}
+
+.play-instantly-img-2 {
+    position: absolute;
+    margin: -290px 0px 0px -140px;
+}
+
+/* instantly section ends here */
+
+
+/* careers section starts here */
+.careers-section {
+    width: 1920px;
+    height: 821px;
+    margin-top: 120px;
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    margin-top: 140px;
+    display: flex;
+}
+
+.careers-container {
+    padding: 120px 0px 0px 240px;
+}
+
+.careers-title {
+    color: #FFF;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+    margin-bottom: 24px;
+}
+
+.careers-contant {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.careers-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.careers-list-box-1 {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 40px;
+    margin-top: 32px;
+}
+
+.careers-list-box-2 {
+    color: #FFF;
+    text-align: right;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 40px;
+    margin: 32px 0px 0px 80px;
+}
+
+.careers-btn-1 {
+    padding: 21px 40px;
+    gap: 10px;
+    border-radius: 48px;
+    background: #FFF;
+    border: none;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    color: #FF42A5;
+    text-transform: uppercase;
+    margin-top: 15px;
+}
+
+.careers-img-1 {
+    width: 1013px;
+    height: 821px;
+}
+
+/* careers section ends here */
+
+/* game category starts here */
+
+.game-section {
+    width: 1920px;
+    height: 427px;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+
+}
+
+.game-container {
+    padding: 120px 0px 0px 239px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 33px;
+}
+
+.hover-items:hover {
+    color: #FF42A5;
+    border: 1px solid #FF42A5;
+}
+
+.category-btn-1 {
+    width: 243px;
+    height: 80px;
+    border-radius: 50px;
+    background: #FFF;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    border: none;
+    justify-content: space-evenly;
+    color: #0B0223;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.category-btn-2 {
+    width: 281px;
+    height: 80px;
+    border-radius: 50px;
+    background: #FFF;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    border: none;
+    justify-content: space-evenly;
+    color: #0B0223;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.category-btn-3 {
+    width: 248px;
+    height: 80px;
+    border-radius: 50px;
+    background: #FFF;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    border: none;
+    justify-content: space-evenly;
+    color: #0B0223;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.category-btn-4 {
+    width: 295px;
+    height: 80px;
+    border-radius: 50px;
+    background: #FFF;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    border: none;
+    justify-content: space-evenly;
+    color: #0B0223;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.category-btn-5 {
+    width: 231px;
+    height: 80px;
+    border-radius: 50px;
+    background: #FFF;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    border: none;
+    justify-content: space-evenly;
+    color: #0B0223;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.category-btn-6 {
+    width: 299px;
+    height: 80px;
+    border-radius: 50px;
+    background: #FFF;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    border: none;
+    justify-content: space-evenly;
+    color: #0B0223;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.category-btn-7 {
+    width: 317px;
+    height: 80px;
+    border-radius: 50px;
+    background: #FFF;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    border: none;
+    justify-content: space-evenly;
+    color: #0B0223;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.category-btn-8 {
+    width: 244px;
+    height: 80px;
+    border-radius: 50px;
+    background: #FFF;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    border: none;
+    justify-content: space-evenly;
+    color: #0B0223;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.category-btn-9 {
+    width: 262px;
+    height: 80px;
+    border-radius: 50px;
+    background: #FFF;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    border: none;
+    justify-content: space-evenly;
+    color: #0B0223;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.btn-icon>img {
+    width: 60px;
+    height: 60px;
+}
+
+/* game category ends here */
+
+/* footer section starts here */
+
+.footer-container {
+    width: 1920px;
+    height: 636px;
+    flex-shrink: 0;
+    background-color: #0B0223;
+    color: white;
+}
+
+
+.footer-logo-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 120px;
+}
+
+.footer-icon {
+    width: 86.041px;
+    height: 40px;
+}
+
+.footer-title {
+    font-size: 45px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.footer-list-category {
+    display: flex;
+    padding: 10px;
+    gap: 60px;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-list {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 66px;
+}
+
+.footer-link-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 66px;
+}
+
+.footer-link-icon>svg {
+    width: 40px;
+    height: 40px;
+}
+
+.footer-terms-and-conditions-area {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: normal;
+    list-style: none;
+    gap: 60px;
+    margin-top: 64px;
+}
+
+.copyright-contant {
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 18px;
+}
+
+/* footer section ends here */
